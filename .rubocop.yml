@@ -1,0 +1,3 @@
+TrivialAccessors:
+    ExactNameMatch: true
+    AllowPredicates: true
