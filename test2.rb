@@ -1,3 +1,5 @@
+# rubocop:disable all
+
 require 'pp'
 #require 'pry'
 require 'binding_of_caller'

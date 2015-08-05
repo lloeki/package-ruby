@@ -16,6 +16,7 @@ class Package < Module
     end
 
     # Return the package as a value
+    # rubocop:disable Lint/UnusedMethodArgument
     def import_to_value(_binding, namespace, as: nil)
       Package.new(namespace)
     end
