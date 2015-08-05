@@ -18,5 +18,8 @@ task :coverage do
   Rake::Task['spec'].execute
 end
 
+require 'bundler/gem_helper'
+Bundler::GemHelper.install_tasks
+
 task default: :ci
 task ci: [:spec, :rubocop]
