@@ -156,6 +156,7 @@ Dependency tracking becomes easy, and reloading a whole graph just as well:
 ```ruby
 bar.dependencies   #=> 'foo'
 bar = bar.reload!  # evicts dependencies recursively and reimports bar
+```
 
 ## Wishlist: setting locals directly
 
